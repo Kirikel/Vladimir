@@ -1,0 +1,107 @@
+/* затемнённый фон с лёгким блюром */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.25s ease;
+}
+
+/* карточка-модалка */
+.modal-card {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+  padding: 24px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transform: translateY(-12px);
+  animation: slideIn 0.3s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+/* шапка */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.modal-header h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #7f7f7f;
+  transition: color 0.15s;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+/* список городов */
+.city-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+/* кнопка-город */
+.city-btn {
+  width: 100%;
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.97rem;
+  border: none;
+  border-radius: 8px;
+  background: #f7f7f9;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.city-btn + li .city-btn {
+  margin-top: 8px;
+}
+
+/* hover / focus */
+.city-btn:hover,
+.city-btn:focus-visible {
+  background: radial-gradient(circle at 0 50%, #ececff 0%, #f7f7f9 120%);
+}
+
+.city-btn:active {
+  transform: scale(0.97);
+}
+
+/* анимации */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slideIn {
+  to { transform: translateY(0); }
+}
+
+.city-list::-webkit-scrollbar {
+  width: 6px;
+}
+.city-list::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}

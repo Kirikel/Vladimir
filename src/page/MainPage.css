@@ -1,0 +1,1066 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1920.457px;
+  height: 930.457px;
+  margin: 0 auto;
+}
+.flex-row-af {
+  position: relative;
+  width: 907.829px;
+  height: 129px;
+  margin: 2px 0 0 896px;
+  z-index: 6;
+}
+.zu-baj-zf-i {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/0ixAjTbkVd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.icons-location {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 45px;
+  left: 783.829px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/sNf6bFT9kZ.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.vladimir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 94px;
+  height: 32px;
+  top: 49px;
+  left: 813.829px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.094px;
+  text-align: left;
+  z-index: 5;
+  backdrop-filter: blur(2px);
+}
+.concerts-vladimir {
+  display: block;
+  position: relative;
+  height: 56px;
+  margin: 13px 0 0 97px;
+  color: #31373e;
+  font-family: Days One, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45.826px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+  backdrop-filter: blur(2px);
+}
+.flex-row-ec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 593.21px;
+  height: 53px;
+  margin: 26px 0 0 97px;
+  z-index: 12;
+}
+.rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 321.71px;
+  height: 53px;
+  background: #ffffff;
+  z-index: 12;
+  border-radius: 63px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.icons-magnifier {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 11px;
+  left: 274.5px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/RyuxX3gcjb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 17px;
+  left: 25.625px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+  backdrop-filter: blur(2px);
+}
+.rectangle-1 {
+  flex-shrink: 0;
+  position: relative;
+  width: 239px;
+  height: 53px;
+  background: #ffffff;
+  z-index: 9;
+  border-radius: 63px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.category {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 16px;
+  left: 21.79px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+  backdrop-filter: blur(2px);
+}
+.icons-triangle {
+  position: absolute;
+  width: 13.25px;
+  height: 13.25px;
+  top: 19px;
+  left: 203.165px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/ouNGANhSLT.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+.flex-row-ce {
+  position: relative;
+  width: 1627.58px;
+  height: 579.75px;
+  margin: 0 0 0 97px;
+  z-index: 121;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 388px;
+  height: 431.842px;
+  top: 0;
+  left: 710px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 63px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.rectangle-3 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 28px 0 0 22.58px;
+  z-index: 41;
+  overflow: visible auto;
+}
+.svg {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/yCo8xESf8Q.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 42;
+}
+.rectangle-4 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 268px 0 0 22.58px;
+  z-index: 82;
+  overflow: visible auto;
+}
+.svg-5 {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/PU6Aa7AirS.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 83;
+}
+.empty {
+  position: absolute;
+  width: 486px;
+  height: 486px;
+  top: 17px;
+  left: 679px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/aikzzGpqiG.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.simple-music-ensemble {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 322.29px;
+  height: 60px;
+  top: 256.75px;
+  right: 1.71px;
+  left: 162px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 22.6875px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  z-index: 53;
+}
+.rectangle-6 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 27px;
+  left: 1151.57px;
+  z-index: 55;
+}
+.svg-7 {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/vbZrj1krCx.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 56;
+}
+.rectangle-8 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 28px;
+  left: 313.58px;
+  z-index: 28;
+}
+.svg-9 {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/mmL7wXbvqR.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+}
+.rectangle-a {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 28px;
+  left: 1571.58px;
+  z-index: 108;
+}
+.svg-b {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/SW6evMkech.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 109;
+}
+.background {
+  position: absolute;
+  height: 219.75px;
+  top: 36px;
+  right: 1269px;
+  left: 0;
+  background: #9897a5;
+  opacity: 1;
+  z-index: 19;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link {
+  position: relative;
+  width: 70.05px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 22;
+  overflow: hidden;
+}
+.background-c {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 23;
+  border-radius: 28px;
+}
+.price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.sx {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/rHYigrrhQD.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 21;
+  border-radius: 12px;
+}
+.background-d {
+  position: absolute;
+  height: 219.75px;
+  top: 36px;
+  right: 850px;
+  left: 419px;
+  background: #23211d;
+  opacity: 1;
+  z-index: 32;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link-e {
+  position: relative;
+  width: 70.45px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 35;
+  overflow: hidden;
+}
+.background-f {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 36;
+  border-radius: 28px;
+}
+.price-tag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 37;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/CNmqAiiwZp.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+  overflow: hidden;
+}
+.overlay-10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 34;
+  border-radius: 12px;
+}
+.background-11 {
+  position: absolute;
+  height: 219.75px;
+  top: 36px;
+  right: 430px;
+  left: 838px;
+  background: #5d7c89;
+  opacity: 1;
+  z-index: 45;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.link-object {
+  position: relative;
+  width: 60.52px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 48;
+  overflow: hidden;
+}
+.background-12 {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 49;
+  border-radius: 28px;
+}
+.price-tag-13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 50;
+}
+.container-14 {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/GJKkDdmAz5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 46;
+  overflow: hidden;
+}
+.overlay-15 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 47;
+  border-radius: 12px;
+}
+.background-16 {
+  position: absolute;
+  height: 219.75px;
+  top: 36px;
+  right: 10px;
+  left: 1258px;
+  background: #990308;
+  opacity: 1;
+  z-index: 99;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.link-object-17 {
+  position: relative;
+  width: 69.53px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 102;
+  overflow: hidden;
+}
+.background-18 {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 103;
+  border-radius: 28px;
+}
+.price-tag-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 104;
+}
+.container-1a {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/JRALANKG4d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 100;
+  overflow: hidden;
+}
+.overlay-1b {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 101;
+  border-radius: 12px;
+}
+.heading-melnitsa {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 271.75px;
+  right: 1506.71px;
+  left: 3px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 23.25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+.heading-atl {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 271.75px;
+  right: 1162px;
+  left: 422px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 23.25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 39;
+}
+.heading-pussykiller {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 271.75px;
+  right: 246.25px;
+  left: 1261px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 22.6875px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 106;
+}
+.rectangle-1c {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 352px;
+  left: 313.58px;
+  z-index: 68;
+}
+.svg-1d {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/4n3t3bmguk.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 69;
+}
+.rectangle-1e {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 352px;
+  left: 1151.57px;
+  z-index: 95;
+}
+.svg-1f {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/EhgeAAY1dF.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 96;
+}
+.rectangle-20 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 352px;
+  left: 1571.58px;
+  z-index: 121;
+}
+.svg-21 {
+  position: relative;
+  width: 26px;
+  height: 23px;
+  margin: 16.5px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/HbpQ11Tusm.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 122;
+}
+.background-22 {
+  position: absolute;
+  height: 219.75px;
+  top: 360px;
+  right: 1269px;
+  left: 0;
+  background: #11151b;
+  opacity: 1;
+  z-index: 59;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link-23 {
+  position: relative;
+  width: 67.48px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 62;
+  overflow: hidden;
+}
+.background-24 {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 63;
+  border-radius: 28px;
+}
+.price-25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 13.671875px;
+  font-weight: 700;
+  line-height: 15.721px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 64;
+}
+.sx-26 {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/XZyDNHqtMx.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 60;
+  overflow: hidden;
+}
+.overlay-27 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 61;
+  border-radius: 12px;
+}
+.background-28 {
+  position: absolute;
+  height: 219.75px;
+  top: 360px;
+  right: 850px;
+  left: 419px;
+  background: #1b0c02;
+  opacity: 1;
+  z-index: 72;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link-29 {
+  position: relative;
+  width: 69.42px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 75;
+  overflow: hidden;
+}
+.background-2a {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 76;
+  border-radius: 28px;
+}
+.price-2b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 77;
+}
+.sx-2c {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/JT1bReehWW.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 73;
+  overflow: hidden;
+}
+.overlay-2d {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 74;
+  border-radius: 12px;
+}
+.background-2e {
+  position: absolute;
+  height: 219.75px;
+  top: 360px;
+  right: 430px;
+  left: 838px;
+  background: #7c858b;
+  opacity: 1;
+  z-index: 86;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link-2f {
+  position: relative;
+  width: 70.42px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 89;
+  overflow: hidden;
+}
+.background-30 {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 90;
+  border-radius: 28px;
+}
+.price-31 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 91;
+}
+.sx-32 {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/G4CEcxAjZ3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 87;
+  overflow: hidden;
+}
+.overlay-33 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 88;
+  border-radius: 12px;
+}
+.background-34 {
+  position: absolute;
+  height: 219.75px;
+  top: 360px;
+  right: 10px;
+  left: 1258px;
+  background: #0f1e24;
+  opacity: 1;
+  z-index: 112;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.object-link-35 {
+  position: relative;
+  width: 68.48px;
+  height: 28px;
+  margin: 179.75px 0 0 12px;
+  z-index: 115;
+  overflow: hidden;
+}
+.background-36 {
+  position: absolute;
+  height: 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #202020;
+  z-index: 116;
+  border-radius: 28px;
+}
+.price-37 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 6px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 13.671875px;
+  font-weight: 700;
+  line-height: 15.721px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 117;
+}
+.sx-38 {
+  position: absolute;
+  width: 100%;
+  height: 219.75px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/UhLvtfcAkp.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 113;
+  overflow: hidden;
+}
+.overlay-39 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 114;
+  border-radius: 12px;
+}
+.flex-row-f {
+  position: relative;
+  width: 1345.68px;
+  height: 62px;
+  margin: 16px 0 0 100px;
+  z-index: 119;
+}
+.heading-mongol-shuudan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  right: 1162.09px;
+  left: 0;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 23.25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 66;
+}
+.heading-ak-tgk {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  right: 367.96px;
+  left: 838px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 23.0625px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 93;
+}
+.heading-cupsize {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  right: 0;
+  left: 1258px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 22.6875px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 119;
+}
+.orchestra-cagmo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 342.68px;
+  height: 60px;
+  top: 2px;
+  right: 584px;
+  left: 419px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 23.25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  z-index: 80;
+}
+.group {
+  position: absolute;
+  width: 1920.457px;
+  height: 948.457px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/uXfuFonxWj.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}

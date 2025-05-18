@@ -1,0 +1,410 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-cont {
+  overflow: hidden;
+}
+
+.main-cont,
+.main-cont * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-cont {
+  position: relative;
+  width: 1920px;
+  height: 1260.457px;
+  margin: 0 auto;
+}
+.rect {
+  position: absolute;
+  width: 1920px;
+  height: 1248.688px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+}
+.oxlcv-mcq-eai {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 0;
+  left: 78px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/BnYzHogKr5.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 5;
+}
+.rect-1 {
+  position: relative;
+  width: 152px;
+  height: 43px;
+  margin: 278.913px 0 0 163.748px;
+  background: #ffffff;
+  z-index: 22;
+  border-radius: 63px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.buy-tickets {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 11px;
+  left: 13px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+  backdrop-filter: blur(2px);
+}
+.oxlcv-mcq-eai-2 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 0;
+  left: 575px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/1NmD9LJUEV.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 8;
+}
+.zu-baj-zfi {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  top: 0;
+  left: 902.629px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/vTOnVtT3HK.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.grou {
+  position: absolute;
+  width: 660.457px;
+  height: 926.457px;
+  top: 4px;
+  left: 1181px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/6kGRHpDXAm.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.icon-location {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 36px;
+  left: 267.129px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/LMW0FHjA0H.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.vladim {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 94px;
+  height: 32px;
+  top: 40px;
+  left: 297.129px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.094px;
+  text-align: left;
+  z-index: 18;
+  backdrop-filter: blur(2px);
+}
+.grou-melnitsa {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 56px;
+  top: 168px;
+  left: 244px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45.826px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+  backdrop-filter: blur(2px);
+}
+.jubileiny-tur-k {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 317px;
+  height: 32px;
+  top: 218.913px;
+  left: 243.748px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.367px;
+  text-align: left;
+  z-index: 26;
+  backdrop-filter: blur(2px);
+}
+.concert-vladim {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 247.913px;
+  left: 243.748px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14.002px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+  backdrop-filter: blur(2px);
+}
+.oxlcv-mcq-eai-3 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 255px;
+  left: 165px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/zX3Z5Af7Mh.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 1;
+}
+.oxlcv-mcq-eai-4 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 263px;
+  left: 667px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/oqaY6Y61p4.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 6;
+}
+.oxlcv-mcq-eai-5 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 374.267px;
+  left: 1077.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/t1kd9gy2tQ.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 7;
+}
+.about-concert {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 395.891px;
+  left: 245.801px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+  backdrop-filter: blur(2px);
+}
+.rect-44 {
+  position: absolute;
+  width: 1441.259px;
+  height: 193px;
+  top: 460.035px;
+  left: 239px;
+  background: #d9d9d9;
+  z-index: 12;
+}
+.main-hits {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 19.965px;
+  left: 16px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+  backdrop-filter: blur(2px);
+}
+.oxlcv-mcq-eai-7 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 539px;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/DpiDFSMVmv.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 4;
+}
+.oxlcv-mcq-eai-8 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 576.479px;
+  left: 723.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/ma5vV8JM3H.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 9;
+}
+.buy-tickets-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 702.577px;
+  left: 245.801px;
+  color: #717881;
+  font-family: Days One, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+  backdrop-filter: blur(2px);
+}
+.image {
+  position: absolute;
+  width: 1072px;
+  height: 333px;
+  top: 773px;
+  left: 376.328px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/QZSvLpjN2s.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.oxlcv-mcq-eai-a {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 854px;
+  left: 46px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/QHv3Mj0VO9.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 3;
+}
+.rect-b {
+  position: absolute;
+  width: 321.71px;
+  height: 53px;
+  top: 1155.083px;
+  left: 246px;
+  background: #ffffff;
+  z-index: 30;
+  border-radius: 63px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.enter-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 17px;
+  left: 25.625px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 32;
+  backdrop-filter: blur(2px);
+}
+.rect-c {
+  position: absolute;
+  width: 95.453px;
+  height: 53px;
+  top: 1155.083px;
+  left: 607.962px;
+  background: #cdcdcd;
+  z-index: 31;
+  border-radius: 63px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.buy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 17px;
+  left: 17.232px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 33;
+  backdrop-filter: blur(2px);
+}
+.oxlcv-mcq-eai-d {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 930px;
+  left: 1525px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/uWDU639shp.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 10;
+}

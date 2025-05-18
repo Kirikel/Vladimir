@@ -1,0 +1,253 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-co {
+  overflow: hidden;
+}
+
+.main-co,
+.main-co * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-co {
+  position: relative;
+  width: 1920.457px;
+  height: 930.457px;
+  margin: 0 auto;
+}
+.oxlsv-mcq-eai {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/P6vgpKKd3W.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 6;
+}
+.re {
+  position: absolute;
+  width: 1920px;
+  height: 925.376px;
+  top: 4.405px;
+  left: 0;
+  background: #ffffff;
+  z-index: 1;
+}
+.grup {
+  position: absolute;
+  width: 660.457px;
+  height: 926.457px;
+  top: -0.41px;
+  left: 1260px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/pkxv8YgRLS.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.icns-location {
+  position: absolute;
+  width: 24.067px;
+  height: 24.067px;
+  top: 34.679px;
+  left: 271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/HXrTcVmJqd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.vadimir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 27.419px;
+  top: 38.106px;
+  left: 211px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.094px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+  backdrop-filter: blur(2px);
+}
+.zu-j-zf-i {
+  position: absolute;
+  width: 119.409px;
+  height: 119.409px;
+  top: -0.41px;
+  left: 900px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/HPevciwQ4J.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.grup-1 {
+  position: absolute;
+  width: 848px;
+  height: 848px;
+  top: 77.595px;
+  left: 577px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/Ks2PeY7fzc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 11px;
+  position: relative;
+  width: 197px;
+  margin: 41px 0 0 292px;
+  z-index: 17;
+}
+.events {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 19px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+  backdrop-filter: blur(2px);
+}
+.certificates {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 19px;
+  color: #707880;
+  font-family: Days One, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+  backdrop-filter: blur(2px);
+}
+.oxlsv-mcq-eai-3 {
+  position: relative;
+  width: 330.457px;
+  height: 330.457px;
+  margin: 7.777px 0 0 225.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/cEMTh1JHDg.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 9;
+}
+.oxlsv-mcq-eai-4 {
+  position: relative;
+  width: 330.457px;
+  height: 330.457px;
+  margin: 96.244px 0 0 225.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/xfdcfLvZOx.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 10;
+}
+.oxlsv-mcq-eai-5 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 79.595px;
+  left: 314px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/LuiGWkY4DC.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 2;
+}
+.gift-certificate-festlist-2-years {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 338px;
+  height: 218.492px;
+  top: 325.595px;
+  left: 336px;
+  color: #31373e;
+  font-family: Days One, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50.918px;
+  text-align: left;
+  z-index: 15;
+  backdrop-filter: blur(2px);
+}
+.oxl-cv-mcqe-ai {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 369.595px;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/uBAKt9qTGO.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 5;
+}
+.oxl-cv-mcqe-ai-6 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 369.861px;
+  left: 505.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/XRjLbyF6H8.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 7;
+}
+.oxl-cv-mcqe-ai-7 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 369.861px;
+  left: 1156.271px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/0EPEJm8SHe.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 8;
+}
+.oxl-cv-mcqe-ai-8 {
+  position: absolute;
+  width: 330.457px;
+  height: 330.457px;
+  top: 595.595px;
+  left: 149px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-17/qjOTUoRYzH.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 4;
+}

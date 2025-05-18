@@ -1,0 +1,144 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import CityModal from "../components/CityModal";
+import "./MainPage.css";
+
+export default function MainPage() {
+    const navigate = useNavigate();
+    const [showModal, setShowModal] = useState(false);
+    const [city, setCity] = useState("Владимир");
+    const goToConcert = () => navigate("/concert");
+
+    return (
+        <>
+        {showModal && (
+            <CityModal
+            onClose={() => setShowModal(false)}
+            onSelect={(c) => setCity(c)}
+            />
+        )}
+        <div className="main-container">
+            <div className="flex-row-af">
+                <div className="zu-baj-zf-i" />
+                <div className="icons-location" />
+                <span className="vladimir" onClick={() => setShowModal(true)}>{city}</span>
+            </div>
+            <span className="concerts-vladimir">Концерты во Владимире</span>
+            <div className="flex-row-ec">
+                <div className="rectangle">
+                <div className="icons-magnifier" />
+                <span className="title">Название</span>
+                </div>
+                <div className="rectangle-1">
+                <span className="category">Категория</span>
+                <div className="icons-triangle" />
+                </div>
+            </div>
+            <div className="flex-row-ce">
+
+                <div className="rectangle-6">
+                <div className="svg-7" />
+                </div>
+                <div className="rectangle-8">
+                <div className="svg-9" />
+                </div>
+                <div className="rectangle-a">
+                <div className="svg-b" />
+                </div>
+                <div className="background" onClick={goToConcert}>
+                <div className="object-link">
+                    <div className="background-c">
+                    <span className="price">от 2 800 </span>
+                    </div>
+                </div>
+                <div className="sx" />
+                <div className="overlay" />
+                </div>
+                <div className="background-d" onClick={goToConcert}>
+                <div className="object-link-e">
+                    <div className="background-f">
+                    <span className="price-tag">от 2 900 </span>
+                    </div>
+                </div>
+                <div className="container" />
+                <div className="overlay-10" />
+                </div>
+                <div className="background-11" onClick={goToConcert}>
+                <div className="link-object">
+                    <div className="background-12">
+                    <span className="price-tag-13">от 900 </span>
+                    </div>
+                </div>
+                <div className="container-14" />
+                <div className="overlay-15" />
+                </div>
+                <div className="background-16" onClick={goToConcert}>
+                <div className="link-object-17">
+                    <div className="background-18">
+                    <span className="price-tag-19">от 1 600 </span>
+                    </div>
+                </div>
+                <div className="container-1a" />
+                <div className="overlay-1b" />
+                </div>
+                <span className="heading-melnitsa">Мельница</span>
+                <span className="heading-atl">ATL</span>
+
+                <span className="heading-pussykiller">Pussykiller</span>
+                <div className="rectangle-1c">
+                <div className="svg-1d" />
+                </div>
+                <div className="rectangle-1e">
+                <div className="svg-1f" />
+                </div>
+                <div className="rectangle-20">
+                <div className="svg-21" />
+                </div>
+                <div className="background-22" onClick={goToConcert}>
+                <div className="object-link-23">
+                    <div className="background-24">
+                    <span className="price-25">от 1 500 </span>
+                    </div>
+                </div>
+                <div className="sx-26" />
+                <div className="overlay-27" />
+                </div>
+                <div className="background-28" onClick={goToConcert}>
+                <div className="object-link-29">
+                    <div className="background-2a">
+                    <span className="price-2b">от 2 300 </span>
+                    </div>
+                </div>
+                <div className="sx-2c" />
+                <div className="overlay-2d" />
+                </div>
+                <div className="background-2e" onClick={goToConcert}>
+                <div className="object-link-2f">
+                    <div className="background-30">
+                    <span className="price-31">от 2 300 </span>
+                    </div>
+                </div>
+                <div className="sx-32" />
+                <div className="overlay-33" />
+                </div>
+                <div className="background-34" onClick={goToConcert}>
+                <div className="object-link-35">
+                    <div className="background-36">
+                    <span className="price-37">от 1 500 </span>
+                    </div>
+                </div>
+                <div className="sx-38" />
+                <div className="overlay-39" />
+                </div>
+            </div>
+            <div className="flex-row-f">
+                <span className="heading-mongol-shuudan">Монгол Шуудан</span>
+                <span className="heading-ak-tgk">АК-47 х TGK</span>
+                <span className="heading-cupsize">Cupsize</span>
+                <span className="orchestra-cagmo">Оркестр CAGMO </span>
+            </div>
+            <div className="group" />
+        </div>
+    </>
+    );
+}
