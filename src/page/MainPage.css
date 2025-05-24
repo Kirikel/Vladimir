@@ -626,6 +626,26 @@ button {
   white-space: nowrap;
   z-index: 39;
 }
+
+.heading-muzzi{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 271.75px;
+  right: 246.25px;
+  left: 841px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 22.6875px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 106;
+}
+
 .heading-pussykiller {
   display: flex;
   align-items: flex-start;

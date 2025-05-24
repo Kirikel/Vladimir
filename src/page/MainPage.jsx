@@ -122,6 +122,9 @@ export default function MainPage() {
           <span className="heading-atl">
             {getConcertValue("title2") || "ATL"}
           </span>
+          <span className="heading-muzzi">
+            {getConcertValue("title3") || "Muzzi"}
+          </span>
           <span className="heading-pussykiller">
             {getConcertValue("title4") || "Pussykiller"}
           </span>
